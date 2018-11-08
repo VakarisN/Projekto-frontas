@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Aiksteliu projektas </title>
+    <link rel="stylesheet" href="dizainas.css">
+</head>
+<body>
+    <div id="wrapper">
+    <header>
+        <div id="logo">
+            <h3> LOGO </h3>
+        </div>
+        <div id="info">
+            <a href="#"> ABOUT </a>
+            <a href="#"> REGISTRACIJA </a>
+        </div>
+        <div id="registracija">
+            <input type='email' placeholder="Email" class="input">
+            <input type="password" placeholder="Password" class="input">
+            <button type="submit" value="submit" id="patvirtinti"> Patvirtinti </button>
+        </div>
+    </header>
+    <section>
+        <div id="left">
+            <select class="choose">
+                <option> Sportas </option>
+                <option> Pasirinkti 1 </option>
+                <option> Pasirinkti 2 </option>
+                <option> Pasirinkti 3 </option>
+            </select>
+
+            <select class="choose">
+                <option> Mokykla </option>
+                <option> Pasirinkti 1 </option>
+                <option> Pasirinkti 2 </option>
+            </select>
+
+            <select class="choose">
+                <option> Pasirinkti </option>
+                <option> Pasirinkti 1 </option>
+                <option> Pasirinkti 2 </option>
+            </select>
+
+            <select class="choose">
+                <option> Pasirinkti </option>
+                <option> Pasirinkti 1 </option>
+                <option> Pasirinkti 2 </option>
+            </select>
+
+            <button type="submit" value="Submit" onclick="document.getElementById('popup').style.display='block'"> Ieskoti </button>
+        </div>
+        <div id="right">
+            <div id="popup">
+                <h3> PASIRINKUS VISUS LANGUS KAIREJE CIA ISSOKS VISA INFORMACIJA </h3>
+                <button id="hide" onclick="document.getElementById('popup').style.display='none'"> HIDE </button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h1> CIA BUS CHATAS IR PASIULYMAI</h1>
+        <p> Dvi knopkes kaireje puseje, paspaudus viena issoks chatas ,
+            paspaudus kita issoks pasiulymai</p>
+    </footer>
+    </div>
+
+</body>
+</html>
